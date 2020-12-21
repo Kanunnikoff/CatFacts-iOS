@@ -17,7 +17,6 @@ struct WidgetView: View {
             Text(fact.text)
                 .font(.system(size: 15, weight: .regular, design: .rounded))
                 .minimumScaleFactor(0.2)
-                .foregroundColor(Color.white)
                 .padding()
             
             Spacer()
@@ -30,11 +29,9 @@ struct WidgetView: View {
                 if let verified = fact.verified, verified {
                     Text("\(formattedDate), verified")
                         .font(.system(size: 11, weight: .regular, design: .rounded))
-                        .foregroundColor(Color.white)
                 } else {
                     Text("\(formattedDate), unverified")
                         .font(.system(size: 11, weight: .regular, design: .rounded))
-                        .foregroundColor(Color.white)
                 }
                 
                 Spacer()
