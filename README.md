@@ -1,2 +1,2 @@
 # CatFacts
-Facts about cats
+Facts about cats: iOS app and widget
